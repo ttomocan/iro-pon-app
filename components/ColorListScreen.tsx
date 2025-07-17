@@ -76,7 +76,16 @@ const ColorListScreen: React.FC<ColorListScreenProps> = ({ onGoHome }) => {
 	return (
 		<div className='w-full max-w-4xl mx-auto py-4 sm:p-6'>
 			<header className='flex flex-col sm:flex-row justify-between sm:items-center mb-8 gap-4'>
-				<h1 className='text-3xl sm:text-4xl font-extrabold text-slate-900'>慣用色名一覧</h1>
+				<h1
+					className='text-3xl sm:text-4xl font-extrabold text-slate-900'
+					style={{
+						fontFamily: '"Mochiy Pop P One", sans-serif',
+						fontWeight: 400,
+						fontStyle: 'normal',
+					}}
+				>
+					慣用色名一覧
+				</h1>
 				<div className='flex flex-col sm:flex-row gap-2'>
 					<Button onClick={() => scrollToGrade(3)} variant='secondary' className='sm:w-auto'>
 						3級へ

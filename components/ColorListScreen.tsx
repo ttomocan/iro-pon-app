@@ -105,7 +105,7 @@ const ColorListScreen: React.FC<ColorListScreenProps> = ({ onGoHome }) => {
 					.map((grade) => (
 						<section key={grade} id={`grade-section-${grade}`}>
 							<h2 className='sticky top-0 bg-slate-50 z-10 text-2xl font-bold text-slate-800 border-b-2 border-cyan-500 py-4 mb-6 w-[calc(100%+1rem)] -translate-x-2 pl-2'>{grade}級</h2>
-							<div className='grid grid-cols-2 lg:grid-cols-3 gap-6'>
+							<div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6'>
 								{groupedColors[parseInt(grade, 10)].map((color) => (
 									<ColorCard key={color.id} color={color} />
 								))}

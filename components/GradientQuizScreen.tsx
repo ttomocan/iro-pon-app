@@ -3,6 +3,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { GradientQuizQuestion, GradientColorData } from '../types';
 import Button from './Button';
 import { CheckIcon, XIcon } from './icons';
+import grade1ColorsData from '../data/grade1_colors.json';
 
 const TOTAL_QUESTIONS = 10;
 
@@ -20,7 +21,7 @@ const shuffleArray = <T,>(array: T[]): T[] => {
 const hexToHsl = (hex: string): { h: number; s: number; l: number } => {
     const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
     if (!result) return { h: 0, s: 0, l: 0 };
-    
+
     let r = parseInt(result[1], 16) / 255;
     let g = parseInt(result[2], 16) / 255;
     let b = parseInt(result[3], 16) / 255;
@@ -49,23 +50,20 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
     const [score, setScore] = useState(0);
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [isCorrect, setIsCorrect] = useState(false);
-    
+
     // D&D state
     const [draggedItemIndex, setDraggedItemIndex] = useState<number | null>(null);
     const [dragOverIndex, setDragOverIndex] = useState<number | null>(null);
 
 
     useEffect(() => {
-        fetch('/data/grade1_colors.json')
-            .then(res => res.json())
-            .then((data: GradientQuizQuestion[]) => {
-                setQuestions(shuffleArray(data).slice(0, TOTAL_QUESTIONS));
-                setIsLoading(false);
-            })
-            .catch(error => {
-                console.error("Failed to load grade 1 quiz data:", error);
-                setIsLoading(false);
-            });
+        try {
+            setQuestions(shuffleArray(grade1ColorsData as GradientQuizQuestion[]).slice(0, TOTAL_QUESTIONS));
+            setIsLoading(false);
+        } catch (error) {
+            console.error("Failed to load grade 1 quiz data:", error);
+            setIsLoading(false);
+        }
     }, []);
 
     const setupQuestion = useCallback(() => {
@@ -75,7 +73,7 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
             setIsSubmitted(false);
         }
     }, [questions, currentQuestionIndex]);
-    
+
     useEffect(setupQuestion, [setupQuestion]);
 
     const getCorrectOrder = useCallback(() => {
@@ -94,7 +92,7 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
 
         const correctOrder = getCorrectOrder();
         const userIsCorrect = userOrder.every((color, index) => color.color_code === correctOrder[index].color_code);
-        
+
         setIsCorrect(userIsCorrect);
         setIsSubmitted(true);
         if (userIsCorrect) {
@@ -109,7 +107,7 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
             onQuizComplete(score, questions.length);
         }
     };
-    
+
     // --- D&D Handlers ---
     const handleDragStart = (e: React.DragEvent<HTMLDivElement>, index: number) => {
         setDraggedItemIndex(index);
@@ -127,17 +125,17 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
     const handleDrop = (e: React.DragEvent<HTMLDivElement>, dropIndex: number) => {
         e.preventDefault();
         if (draggedItemIndex === null) return;
-        
+
         const draggedItem = userOrder[draggedItemIndex];
         const newOrder = [...userOrder];
         newOrder.splice(draggedItemIndex, 1);
         newOrder.splice(dropIndex, 0, draggedItem);
-        
+
         setUserOrder(newOrder);
         setDraggedItemIndex(null);
         setDragOverIndex(null);
     };
-    
+
     const handleDragEnd = (e: React.DragEvent<HTMLDivElement>) => {
         e.currentTarget.classList.remove('dragging');
         setDraggedItemIndex(null);
@@ -147,7 +145,7 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
 
     if (isLoading) return <div className="text-slate-500">1級クイズを読み込み中...</div>;
     if (questions.length === 0) return <div className="text-slate-500">問題が見つかりません。</div>;
-    
+
     const currentQuestion = questions[currentQuestionIndex];
     const correctOrder = isSubmitted ? getCorrectOrder() : [];
 
@@ -179,7 +177,7 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
                 {!isSubmitted && (
                     <Button onClick={handleSubmit} className="w-full sm:w-auto sm:px-10 mx-auto block">確認する</Button>
                 )}
-                
+
                 {isSubmitted && (
                     <div className="mt-8 pt-6 border-t border-slate-200 animate-fade-in">
                         <div className="text-center mb-6">

@@ -1,0 +1,1243 @@
+
+[
+  {
+    "id": 61,
+    "grade": 3,
+    "color_name": "桜色(さくらいろ)",
+    "system_name": "ごくうすい紫みの赤",
+    "pccs_notation": "p24+",
+    "munsell_value": "10RP 9/2.5",
+    "color_code": "#FCEEEB",
+    "explanation": "日本の春を象徴する桜の花びらの柔らかな薄桃色。ほんのり紫みを帯び、優雅で淡い印象。和装や春のデザインに多用される。"
+  },
+  {
+    "id": 62,
+    "grade": 3,
+    "color_name": "紅梅色(こうばいいろ)",
+    "system_name": "やわらかい赤",
+    "pccs_notation": "lt2+",
+    "munsell_value": "2.5R 6.5/7.5",
+    "color_code": "#EA9395",
+    "explanation": "紅梅の花の鮮やかで柔らかい赤。明るすぎず落ち着いた暖色系。伝統的な和風カラーとして好まれる上品な色味。"
+  },
+  {
+    "id": 63,
+    "grade": 3,
+    "color_name": "珊瑚色(さんごいろ)",
+    "system_name": "明るい赤",
+    "pccs_notation": "b2, lt2+",
+    "munsell_value": "2.5R 7/11",
+    "color_code": "#EDA098",
+    "explanation": "サンゴにちなんだ生命感ある明るい赤色。健康的で温かみがあり、化粧品やインテリアにも使われる。"
+  },
+  {
+    "id": 64,
+    "grade": 3,
+    "color_name": "茜色(あかねいろ)",
+    "system_name": "こい赤",
+    "pccs_notation": "dp2",
+    "munsell_value": "4R 3.5/11",
+    "color_code": "#9D2932",
+    "explanation": "古くから染料に使われる茜根由来の深い赤。高級感や歴史、和の奥深さなどを印象づける伝統色。"
+  },
+  {
+    "id": 65,
+    "grade": 3,
+    "color_name": "朱色(しゅいろ)",
+    "system_name": "あざやかな黄みの赤",
+    "pccs_notation": "v3",
+    "munsell_value": "6R 5.5/14",
+    "color_code": "#DD4827",
+    "explanation": "神社の鳥居や祭事装飾に多用。活気や幸福、エネルギーを象徴する鮮やかな朱系の色。"
+  },
+  {
+    "id": 66,
+    "grade": 3,
+    "color_name": "ワインレッド",
+    "system_name": "こい紫みの赤",
+    "pccs_notation": "dp24",
+    "munsell_value": "10RP 3/9",
+    "color_code": "#8B1C3A",
+    "explanation": "熟成されたワインのような深い赤紫色。高級感と大人っぽさがあり、ファッションやインテリアのアクセントにも用いられる。"
+  },
+  {
+    "id": 67,
+    "grade": 3,
+    "color_name": "ボルドー",
+    "system_name": "ごく暗い赤",
+    "pccs_notation": "dkg2",
+    "munsell_value": "2.5R 2.5/3",
+    "color_code": "#3A2C2E",
+    "explanation": "赤ワイン（ボルドー地方）の色調が由来。重厚感があり、フォーマルや冬の装い、アート作品でも人気。"
+  },
+  {
+    "id": 68,
+    "grade": 3,
+    "color_name": "カーマイン",
+    "system_name": "あざやかな赤",
+    "pccs_notation": "v2",
+    "munsell_value": "4R 4/14",
+    "color_code": "#D70035",
+    "explanation": "染物や顔料にも使われる歴史的な強鮮やか赤。情熱やパワフルな印象で、ロゴ/アクセントカラーにも適する。"
+  },
+  {
+    "id": 69,
+    "grade": 3,
+    "color_name": "バーミリオン",
+    "system_name": "あざやかな黄みの赤",
+    "pccs_notation": "v3",
+    "munsell_value": "6R 5.5/14",
+    "color_code": "#F44336",
+    "explanation": "日本画や歴史的な建造物に使われる、オレンジを帯びた鮮やかで力強い赤。風水的にも明るいエネルギー色。"
+  },
+  {
+    "id": 70,
+    "grade": 3,
+    "color_name": "スカーレット",
+    "system_name": "あざやかな黄みの赤",
+    "pccs_notation": "v3",
+    "munsell_value": "7R 5/14",
+    "color_code": "#FF2400",
+    "explanation": "華やかで活発な赤。ブランドカラーやプロモーションにも好適。アクティブさ・情熱を連想させる。"
+  },
+  {
+    "id": 71,
+    "grade": 3,
+    "color_name": "サーモンピンク",
+    "system_name": "やわらかい黄みの赤",
+    "pccs_notation": "lt4+",
+    "munsell_value": "8R 7.5/7.5",
+    "color_code": "#F8B7A0",
+    "explanation": "鮭の身の色に似たやさしいピンク。女性的・健康的な印象で、化粧品やインテリア、衣料品で好まれる。"
+  },
+  {
+    "id": 72,
+    "grade": 3,
+    "color_name": "煉瓦色(れんがいろ)",
+    "system_name": "暗い黄赤",
+    "pccs_notation": "dk4",
+    "munsell_value": "10R 4/7",
+    "color_code": "#B55233",
+    "explanation": "日本の建築資材レンガに由来。落ち着きや暖かみ、素朴さを醸し出し、住宅や家具にも使われるアースカラー。"
+  },
+  {
+    "id": 73,
+    "grade": 3,
+    "color_name": "栗色(くりいろ)",
+    "system_name": "暗い灰みの黄赤",
+    "pccs_notation": "dk4",
+    "munsell_value": "2YR 3.5/4",
+    "color_code": "#762F07",
+    "explanation": "秋の自然、木の実を思わせる焦げ茶色。温もりと安定感を持ち、家具や伝統工芸品にもよく利用される。"
+  },
+  {
+    "id": 74,
+    "grade": 3,
+    "color_name": "チョコレート",
+    "system_name": "ごく暗い黄赤",
+    "pccs_notation": "dkg4",
+    "munsell_value": "10R 2.5/2.5",
+    "color_code": "#6B3B2A",
+    "explanation": "ビターチョコに似た深みある茶色。高級感があり、食品・ファッション雑貨など広く用いられる色。"
+  },
+  {
+    "id": 75,
+    "grade": 3,
+    "color_name": "ピーチ",
+    "system_name": "明るい灰みの黄赤",
+    "pccs_notation": "p6+",
+    "munsell_value": "3YR 8/3.5",
+    "color_code": "#FFD1B3",
+    "explanation": "桃の果実のような淡く柔らかい色味。親しみやすく可愛らしさが漂い、春夏の配色や乳幼児向け製品に最適。"
+  },
+  {
+    "id": 76,
+    "grade": 3,
+    "color_name": "山吹色(やまぶきいろ)",
+    "system_name": "あざやかな赤みの黄",
+    "pccs_notation": "v7",
+    "munsell_value": "10YR 7.5/13",
+    "color_code": "#FFC200",
+    "explanation": "和名の山吹（花）に由来した鮮やかな黄色。豊かさ・繁栄を象徴し、日本の伝統美術でも重用される。"
+  },
+  {
+    "id": 77,
+    "grade": 3,
+    "color_name": "黄土色(おうどいろ)",
+    "system_name": "くすんだ赤みの黄",
+    "pccs_notation": "d6",
+    "munsell_value": "10YR 6/7.5",
+    "color_code": "#C39143",
+    "explanation": "土・鉱物の自然的なイメージ。アンティーク感や落ち着きを与えるカラーデザイン向き。"
+  },
+  {
+    "id": 78,
+    "grade": 3,
+    "color_name": "芥子色(からしいろ)",
+    "system_name": "やわらかい黄",
+    "pccs_notation": "sf8",
+    "munsell_value": "3Y 7/6",
+    "color_code": "#D7CF3A",
+    "explanation": "辛子の種の色に似たくすみイエロー。和風の落ち着きや抑制された華やかさを感じる。和菓子や染色でも馴染み深い。"
+  },
+  {
+    "id": 79,
+    "grade": 3,
+    "color_name": "マリーゴールド",
+    "system_name": "あざやかな赤みの黄",
+    "pccs_notation": "v6",
+    "munsell_value": "8YR 7.5/13",
+    "color_code": "#FFD700",
+    "explanation": "オレンジを含む強い黄色。元気で開放感があり、祭りや装飾・スポーツ関連でも映える。"
+  },
+  {
+    "id": 80,
+    "grade": 3,
+    "color_name": "ベージュ",
+    "system_name": "明るい灰みの赤みを帯びた黄",
+    "pccs_notation": "ltg6",
+    "munsell_value": "10YR 7/2.5",
+    "color_code": "#F5E3B3",
+    "explanation": "肌や砂を思わせるナチュラルカラー。温和で安心感があり、インテリアや服飾で重宝されている。"
+  },
+  {
+    "id": 81,
+    "grade": 3,
+    "color_name": "セピア",
+    "system_name": "ごく暗い赤みの黄",
+    "pccs_notation": "dkg6",
+    "munsell_value": "10YR 2.5/2",
+    "color_code": "#6E552F",
+    "explanation": "古い写真や絵画にみられる渋み。レトロやヴィンテージ、ノスタルジックな雰囲気構築に適する。"
+  },
+  {
+    "id": 82,
+    "grade": 3,
+    "color_name": "カーキー",
+    "system_name": "くすんだ赤みの黄",
+    "pccs_notation": "dk8",
+    "munsell_value": "1Y 5/5.5",
+    "color_code": "#948155",
+    "explanation": "ミリタリー服やワーキングウエアに欠かせない落ち着いた土色。自然の風合いや実用性を感じさせる。"
+  },
+  {
+    "id": 83,
+    "grade": 3,
+    "color_name": "ブロンド",
+    "system_name": "やわらかい黄",
+    "pccs_notation": "sf8",
+    "munsell_value": "2Y 7.5/7",
+    "color_code": "#F7E199",
+    "explanation": "明るく自然な黄髪色。健康的で清潔感があり、ファッション・ヘアカラーにも使われる。"
+  },
+  {
+    "id": 84,
+    "grade": 3,
+    "color_name": "クリームイエロー",
+    "system_name": "ごくうすい黄",
+    "pccs_notation": "p8+",
+    "munsell_value": "5Y 8.5/3.5",
+    "color_code": "#FFF7AE",
+    "explanation": "牛乳由来の柔和なクリーム色。上品でやさしく、家具や寝具、壁紙にもよく取り入れられる。"
+  },
+  {
+    "id": 85,
+    "grade": 3,
+    "color_name": "カナリヤ",
+    "system_name": "明るい緑みの黄",
+    "pccs_notation": "v9",
+    "munsell_value": "7Y 8.5/10",
+    "color_code": "#FFF100",
+    "explanation": "カナリアの羽のような生命力ある明るい黄色。注意喚起やアイキャッチにも重宝されるビビッドカラー。"
+  },
+  {
+    "id": 86,
+    "grade": 3,
+    "color_name": "オリーブ",
+    "system_name": "暗い緑みの黄",
+    "pccs_notation": "dk8",
+    "munsell_value": "7.5Y 3.5/4",
+    "color_code": "#6E6E30",
+    "explanation": "オリーブの実の濃い色味。自然・健康・安心感の象徴として、食品や軍服にも使われている。"
+  },
+  {
+    "id": 87,
+    "grade": 3,
+    "color_name": "レモンイエロー",
+    "system_name": "あざやかな緑みの黄",
+    "pccs_notation": "v8, b8",
+    "munsell_value": "8Y 8/12",
+    "color_code": "#CCE700",
+    "explanation": "レモン果実のすっきりとした明色。フレッシュで爽やか、季節感や清涼感を演出したい時に最適。"
+  },
+  {
+    "id": 88,
+    "grade": 3,
+    "color_name": "鶯色(うぐいすいろ)",
+    "system_name": "くすんだ黄緑",
+    "pccs_notation": "d10, g10",
+    "munsell_value": "1GY 4.5/3.5",
+    "color_code": "#6C6024",
+    "explanation": "日本の野鳥・鶯の羽のような渋い緑。和の伝統色らしく、落ち着いた空間や和食器にも合う。"
+  },
+  {
+    "id": 89,
+    "grade": 3,
+    "color_name": "萌黄(もえぎ)",
+    "system_name": "つよい黄緑",
+    "pccs_notation": "dp10, b10",
+    "munsell_value": "4GY 6.5/9",
+    "color_code": "#A8C97F",
+    "explanation": "新芽や若草のフレッシュな黄緑。春・若さ・生命力をイメージさせるポジティブ色。"
+  },
+  {
+    "id": 90,
+    "grade": 3,
+    "color_name": "オリーブグリーン",
+    "system_name": "暗い灰みの黄緑",
+    "pccs_notation": "g10, dk10",
+    "munsell_value": "2.5GY 3.5/3",
+    "color_code": "#585E43",
+    "explanation": "やや灰みの強い落ち着いた緑。軍服色としても知られ、安定・信頼感を持つ。"
+  },
+  {
+    "id": 91,
+    "grade": 3,
+    "color_name": "若竹色(わかたけいろ)",
+    "system_name": "つよい緑",
+    "pccs_notation": "b12",
+    "munsell_value": "6G 6/7.5",
+    "color_code": "#7A9C3B",
+    "explanation": "若竹の新芽のような清涼で明るい緑。成長、新鮮、自然などポジティブなイメージ。"
+  },
+  {
+    "id": 92,
+    "grade": 3,
+    "color_name": "青磁色(せいじいろ)",
+    "system_name": "やわらかい青みの緑",
+    "pccs_notation": "sf12",
+    "munsell_value": "7.5G 6.5/4",
+    "color_code": "#7EBEA5",
+    "explanation": "青磁焼の陶磁器に見られる穏やかな青緑色。気品や涼感、静寂を感じさせる伝統的な色。"
+  },
+  {
+    "id": 93,
+    "grade": 3,
+    "color_name": "コバルトグリーン",
+    "system_name": "明るい緑",
+    "pccs_notation": "b12",
+    "munsell_value": "4G 7/9",
+    "color_code": "#3EB370",
+    "explanation": "金属的な鮮やかさを持つ緑。工業製品やアクセサリーの色として現代的な印象も強い。"
+  },
+  {
+    "id": 94,
+    "grade": 3,
+    "color_name": "エメラルドグリーン",
+    "system_name": "つよい緑",
+    "pccs_notation": "dp12, b12",
+    "munsell_value": "4G 6/8",
+    "color_code": "#00A968",
+    "explanation": "宝石エメラルドの名前そのままの鮮やか清涼な緑。上品で特別感がある。"
+  },
+  {
+    "id": 95,
+    "grade": 3,
+    "color_name": "ビリジアン",
+    "system_name": "くすんだ青みの緑",
+    "pccs_notation": "d12",
+    "munsell_value": "8G 4/6",
+    "color_code": "#339966",
+    "explanation": "深みのあるやや青みを感じる緑。重厚感があり、美術やデザインで重宝されるシックな色調。"
+  },
+  {
+    "id": 96,
+    "grade": 3,
+    "color_name": "浅葱色(あさぎいろ)",
+    "system_name": "あざやかな緑みの青",
+    "pccs_notation": "b16, b14",
+    "munsell_value": "2.5B 5/8",
+    "color_code": "#33A6B8",
+    "explanation": "古来の染色で生まれた爽やかな和色。伝統的な着物などで日本らしさを演出する。"
+  },
+  {
+    "id": 97,
+    "grade": 3,
+    "color_name": "空色(そらいろ)",
+    "system_name": "明るい青",
+    "pccs_notation": "lt16+",
+    "munsell_value": "9B 7.5/5.5",
+    "color_code": "#58B2DC",
+    "explanation": "晴天の大空を思わせる、清涼で明るい透明感ある青。子供服や夏用のデザインに多用。"
+  },
+  {
+    "id": 98,
+    "grade": 3,
+    "color_name": "藍色(あいいろ)",
+    "system_name": "暗い青",
+    "pccs_notation": "d18, dk18",
+    "munsell_value": "2PB 3/5",
+    "color_code": "#165E83",
+    "explanation": "日本古来の藍染め色。重厚さ、落ち着き、伝統を感じさせる。着物・工芸・和小物でお馴染み。"
+  },
+  {
+    "id": 99,
+    "grade": 3,
+    "color_name": "瑠璃色(るりいろ)",
+    "system_name": "こい紫みの青",
+    "pccs_notation": "v19",
+    "munsell_value": "6PB 3.5/11",
+    "color_code": "#274A78",
+    "explanation": "宝石ルリの深く輝く鮮やかな青。高貴さ、神秘性、格式を感じさせる芸術色。"
+  },
+  {
+    "id": 100,
+    "grade": 3,
+    "color_name": "群青色(ぐんじょういろ)",
+    "system_name": "こい紫みの青",
+    "pccs_notation": "v19",
+    "munsell_value": "7.5PB 3.5/11",
+    "color_code": "#4C6CB3",
+    "explanation": "洋画・日本画双方で用いられる鮮やかで濃い青紫。知性・芸術性を表現。"
+  },
+  {
+    "id": 101,
+    "grade": 3,
+    "color_name": "ターコイズブルー",
+    "system_name": "明るい緑みの青",
+    "pccs_notation": "b16",
+    "munsell_value": "5B 6/8",
+    "color_code": "#00B5C8",
+    "explanation": "南国の海やターコイズ石を思わせる爽やか青。夏のアクセサリーや服飾品で親しまれる。"
+  },
+  {
+    "id": 102,
+    "grade": 3,
+    "color_name": "マリンブルー",
+    "system_name": "こい緑みの青",
+    "pccs_notation": "dp16",
+    "munsell_value": "5B 3/7",
+    "color_code": "#005E7C",
+    "explanation": "海の深さを感じさせる濃い青。マリンスポーツや制服、フォーマルにもふさわしい印象。"
+  },
+  {
+    "id": 103,
+    "grade": 3,
+    "color_name": "シアン",
+    "system_name": "明るい青",
+    "pccs_notation": "v16",
+    "munsell_value": "7.5B 6/10",
+    "color_code": "#009CD1",
+    "explanation": "印刷の三原色のひとつで鮮やか。現代デザインや広告でよく使うビビッドな青。"
+  },
+  {
+    "id": 104,
+    "grade": 3,
+    "color_name": "スカイブルー",
+    "system_name": "明るい青",
+    "pccs_notation": "lt16+",
+    "munsell_value": "9B 7.5/5.5",
+    "color_code": "#87CEEB",
+    "explanation": "明るく柔らかな空色。多用途なパステル調で、さわやかさや親しみやすさを表現。"
+  },
+  {
+    "id": 105,
+    "grade": 3,
+    "color_name": "ベビーブルー",
+    "system_name": "明るい灰みの青",
+    "pccs_notation": "p18+",
+    "munsell_value": "10B 7.5/3",
+    "color_code": "#C7E6EC",
+    "explanation": "淡く優しいパステルブルー。赤ちゃん用品や女性向け雑貨、インテリアにも好まれる穏やかな色。"
+  },
+  {
+    "id": 106,
+    "grade": 3,
+    "color_name": "コバルトブルー",
+    "system_name": "あざやかな青",
+    "pccs_notation": "v18",
+    "munsell_value": "3PB 4/10",
+    "color_code": "#0068B7",
+    "explanation": "ガラスや陶磁器にも使用される透明感ある鮮やかな青。絵画やアクセサリーで存在感を放つ。"
+  },
+  {
+    "id": 107,
+    "grade": 3,
+    "color_name": "ネービーブルー",
+    "system_name": "暗い紫みの青",
+    "pccs_notation": "dk18",
+    "munsell_value": "6PB 2.5/4",
+    "color_code": "#223A70",
+    "explanation": "制服・スーツで定番の落ち着いた濃紺。フォーマルさと信頼感を兼ね備える。"
+  },
+  {
+    "id": 108,
+    "grade": 3,
+    "color_name": "ウルトラマリンブルー",
+    "system_name": "こい紫みの青",
+    "pccs_notation": "v19",
+    "munsell_value": "7.5PB 3.5/11",
+    "color_code": "#4169E1",
+    "explanation": "芸術分野で重宝される鮮烈な青紫。重厚で高級な演出、知的な雰囲気づくりに役立つ。"
+  },
+  {
+    "id": 109,
+    "grade": 3,
+    "color_name": "桔梗色(ききょういろ)",
+    "system_name": "こい青紫",
+    "pccs_notation": "v20",
+    "munsell_value": "9PB 3.5/13",
+    "color_code": "#5654A2",
+    "explanation": "日本の桔梗の花由来の端正な青紫。着物や陶器など和テイストに使われる格式ある色。"
+  },
+  {
+    "id": 110,
+    "grade": 3,
+    "color_name": "バイオレット",
+    "system_name": "あざやかな青紫",
+    "pccs_notation": "v21",
+    "munsell_value": "2.5P 4/11",
+    "color_code": "#8F48A5",
+    "explanation": "明るく鮮やかな青紫。創造性やミステリアス、個性を演出するアクセントカラー。"
+  },
+  {
+    "id": 111,
+    "grade": 3,
+    "color_name": "茄子紺(なすこん)",
+    "system_name": "ごく暗い紫",
+    "pccs_notation": "dk22",
+    "munsell_value": "7.5P 2.5/2.5",
+    "color_code": "#583131",
+    "explanation": "茄子の皮に似た深い紫系。落ち着きや高級感、重厚さを兼ね備える日本の伝統色。"
+  },
+  {
+    "id": 112,
+    "grade": 3,
+    "color_name": "菖蒲色(あやめいろ)",
+    "system_name": "明るい赤みの紫",
+    "pccs_notation": "b22",
+    "munsell_value": "10P 6/10",
+    "color_code": "#6F3381",
+    "explanation": "菖蒲の花を思わせる優美な紫。やや赤み寄りで、奥ゆかしく柔らかい和の美しさを表現する。"
+  },
+  {
+    "id": 113,
+    "grade": 3,
+    "color_name": "ラベンダー",
+    "system_name": "灰みの青みを帯びた紫",
+    "pccs_notation": "sf22",
+    "munsell_value": "5P 6/3",
+    "color_code": "#B57EDC",
+    "explanation": "フランス原産のラベンダー花の明るい紫。癒やし・リラックス・女性らしさを感じる色調。"
+  },
+  {
+    "id": 114,
+    "grade": 3,
+    "color_name": "モーブ",
+    "system_name": "つよい青みの紫",
+    "pccs_notation": "v22",
+    "munsell_value": "5P 4.5/9",
+    "color_code": "#915DA3",
+    "explanation": "英国で生まれた歴史ある紫色。高級感とエレガンスを兼ね備え、上品な装いに利用される。"
+  },
+  {
+    "id": 115,
+    "grade": 3,
+    "color_name": "パープル",
+    "system_name": "あざやかな紫",
+    "pccs_notation": "b22",
+    "munsell_value": "7.5P 5/12",
+    "color_code": "#A64F7B",
+    "explanation": "派手で創造的、活発さや神秘性、芸術的な雰囲気を与える色。"
+  },
+  {
+    "id": 116,
+    "grade": 3,
+    "color_name": "牡丹色(ぼたんいろ)",
+    "system_name": "あざやかな赤紫",
+    "pccs_notation": "v24",
+    "munsell_value": "3RP 5/14",
+    "color_code": "#E7609E",
+    "explanation": "牡丹の花びらのような濃厚な赤紫。和装やメイクなどで使われるゴージャスな印象の彩り。"
+  },
+  {
+    "id": 117,
+    "grade": 3,
+    "color_name": "マゼンタ",
+    "system_name": "あざやかな赤紫",
+    "pccs_notation": "v24",
+    "munsell_value": "5RP 5/14",
+    "color_code": "#E4007F",
+    "explanation": "印刷分野の基本色。非常に鮮やかで華やか、個性や目立たせたいデザインにも利用。"
+  },
+  {
+    "id": 118,
+    "grade": 3,
+    "color_name": "生成り色(きなりいろ)",
+    "system_name": "赤みを帯びた黄みの白",
+    "pccs_notation": "off N-9",
+    "munsell_value": "10YR 9/1",
+    "color_code": "#FDF6E0",
+    "explanation": "染色していない自然な生地色。素朴さや温かみ、ナチュラルな雰囲気づくりにピッタリ。"
+  },
+  {
+    "id": 119,
+    "grade": 3,
+    "color_name": "アイボリー",
+    "system_name": "黄みのうすい灰色",
+    "pccs_notation": "ltg8",
+    "munsell_value": "2.5Y 8.5/1.5",
+    "color_code": "#F8F4E6",
+    "explanation": "象牙をイメージする黄みがかったホワイト。インテリア・家具・清潔感を演出する空間で人気。"
+  },
+  {
+    "id": 120,
+    "grade": 3,
+    "color_name": "シルバーグレイ",
+    "system_name": "明るい灰色",
+    "pccs_notation": "Gy-6.5",
+    "munsell_value": "N6.5",
+    "color_code": "#C9C9C9",
+    "explanation": "洗練された現代的なニュートラルグレイ。金属感があり、テクノロジー・近未来イメージにも活用。"
+  },
+  {
+    "id": 121,
+    "grade": 3,
+    "color_name": "チャコールグレイ",
+    "system_name": "紫みの暗い灰色",
+    "pccs_notation": "Gy-3.0",
+    "munsell_value": "5P 3/1",
+    "color_code": "#595457",
+    "explanation": "紫みを含む深みある暗い灰色。シック・モダンで重厚感のある空間や装いに相性が良い。"
+  },
+  {
+    "id": 1,
+    "grade": 2,
+    "color_name": "鴇色(ときいろ)",
+    "system_name": "明るい紫みの赤",
+    "pccs_notation": "p24+",
+    "munsell_value": "7.5R 7/8",
+    "color_code": "#E58E8E",
+    "explanation": "春の訪れを告げる鴇の羽色のようなやわらかいピンク寄りの明るい赤。和装や春の意匠に最適。"
+  },
+  {
+    "id": 2,
+    "grade": 2,
+    "color_name": "韓紅色(からくれない)",
+    "system_name": "あざやかな赤",
+    "pccs_notation": "v2",
+    "munsell_value": "4R 5/14",
+    "color_code": "#D83337",
+    "explanation": "鮮やかで力強い赤。装飾や注目を集めるシーンで映える。"
+  },
+  {
+    "id": 3,
+    "grade": 2,
+    "color_name": "蘇芳(すおう)",
+    "system_name": "くすんだ赤",
+    "pccs_notation": "d2",
+    "munsell_value": "4R 3/10",
+    "color_code": "#844B49",
+    "explanation": "昔から染料に使われた、やや渋みのある落ち着いた暗赤色。"
+  },
+  {
+    "id": 4,
+    "grade": 2,
+    "color_name": "鳶色(とびいろ)",
+    "system_name": "暗い黄みの赤",
+    "pccs_notation": "dk4",
+    "munsell_value": "5R 3/6",
+    "color_code": "#7B3F00",
+    "explanation": "鳶の羽色を由来とする伝統的で落ち着いた赤茶色。"
+  },
+  {
+    "id": 5,
+    "grade": 2,
+    "color_name": "弁柄色(べんがらいろ)",
+    "system_name": "暗い黄みの赤",
+    "pccs_notation": "dkg4",
+    "munsell_value": "10R 3/4",
+    "color_code": "#843B15",
+    "explanation": "酸化鉄由来の歴史ある土っぽい赤褐色。建築や装飾にも多用される重厚な色。"
+  },
+  {
+    "id": 6,
+    "grade": 2,
+    "color_name": "海老茶(えびちゃ)",
+    "system_name": "暗い黄みの赤",
+    "pccs_notation": "dk5",
+    "munsell_value": "5R 3/5",
+    "color_code": "#6B2F2F",
+    "explanation": "海老殻に似た深い赤茶。和装や陶器、家具にもよく使われる温かみのある色合い。"
+  },
+  {
+    "id": 7,
+    "grade": 2,
+    "color_name": "オールドローズ",
+    "system_name": "やわらかい赤",
+    "pccs_notation": "lt2",
+    "munsell_value": "7.5R 5/8",
+    "color_code": "#C08081",
+    "explanation": "古典的な薔薇をイメージしたやさしい赤紫色。エレガントなファッションや内装に。"
+  },
+  {
+    "id": 8,
+    "grade": 2,
+    "color_name": "ポピーレッド",
+    "system_name": "あざやかな赤",
+    "pccs_notation": "v2",
+    "munsell_value": "4R 6/12",
+    "color_code": "#E34234",
+    "explanation": "ケシの花のような鮮烈な赤。アクセントや注目色に最良。"
+  },
+  {
+    "id": 9,
+    "grade": 2,
+    "color_name": "マルーン",
+    "system_name": "暗い赤",
+    "pccs_notation": "dkg2",
+    "munsell_value": "5R 3/6",
+    "color_code": "#800000",
+    "explanation": "スペイン栗に由来、高級感漂う暗赤色。フォーマルや重厚な雰囲気にも合う。"
+  },
+  {
+    "id": 10,
+    "grade": 2,
+    "color_name": "テラコッタ",
+    "system_name": "くすんだ黄みの赤",
+    "pccs_notation": "dkg4",
+    "munsell_value": "7.5R 4/6",
+    "color_code": "#B04E00",
+    "explanation": "イタリア語で「焼いた土」。素朴な陶器色でナチュラルデザインに人気。"
+  },
+  {
+    "id": 11,
+    "grade": 2,
+    "color_name": "ローズピンク",
+    "system_name": "明るい紫みの赤",
+    "pccs_notation": "p26",
+    "munsell_value": "9RP 7/8",
+    "color_code": "#F5B7C4",
+    "explanation": "バラ花びらのような上品なピンク。甘さと華やかさを兼ね備える色。"
+  },
+  {
+    "id": 12,
+    "grade": 2,
+    "color_name": "バーガンディー",
+    "system_name": "ごく暗い紫みの赤",
+    "pccs_notation": "dkg24",
+    "munsell_value": "10RP 2/4",
+    "color_code": "#6B242C",
+    "explanation": "ワインで有名な地方名より。高級感、大人っぽさが表現できる深い赤紫。"
+  },
+  {
+    "id": 13,
+    "grade": 2,
+    "color_name": "黄丹(おうに)",
+    "system_name": "つよい黄赤",
+    "pccs_notation": "b4",
+    "munsell_value": "6R 6/12",
+    "color_code": "#F39800",
+    "explanation": "明治陸軍制服にも用いられた鮮やかなオレンジがかった赤。"
+  },
+  {
+    "id": 14,
+    "grade": 2,
+    "color_name": "桧皮色(ひわだいろ)",
+    "system_name": "暗い灰みの黄赤",
+    "pccs_notation": "dk6",
+    "munsell_value": "5YR 3/3",
+    "color_code": "#8F5A3C",
+    "explanation": "樹皮に似た落ち着いた色。和の落ち着きや自然素材の配色に適す。"
+  },
+  {
+    "id": 15,
+    "grade": 2,
+    "color_name": "代赭(たいしゃ)",
+    "system_name": "くすんだ黄赤",
+    "pccs_notation": "d6",
+    "munsell_value": "10R 5/6",
+    "color_code": "#B55233",
+    "explanation": "酸化鉄顔料。古来日本建築の装飾色などに利用される。"
+  },
+  {
+    "id": 16,
+    "grade": 2,
+    "color_name": "柑子色(こうじいろ)",
+    "system_name": "明るい黄赤",
+    "pccs_notation": "b6",
+    "munsell_value": "8R 7/12",
+    "color_code": "#F6AD49",
+    "explanation": "みかん果皮の色。親しみやすく健康的なアクセントカラー。"
+  },
+  {
+    "id": 17,
+    "grade": 2,
+    "color_name": "バーントシェンナ",
+    "system_name": "くすんだ黄赤",
+    "pccs_notation": "d6",
+    "munsell_value": "5YR 5/6",
+    "color_code": "#E97451",
+    "explanation": "「焼いたシエナ」顔料名。アンティーク家具や美術の定番。"
+  },
+  {
+    "id": 18,
+    "grade": 2,
+    "color_name": "ローシェンナ",
+    "system_name": "つよい黄赤",
+    "pccs_notation": "b4",
+    "munsell_value": "5YR 5/8",
+    "color_code": "#C2B280",
+    "explanation": "生のシエナ土から。自然素材や伝統的建築配色にも。"
+  },
+  {
+    "id": 19,
+    "grade": 2,
+    "color_name": "タン",
+    "system_name": "くすんだ黄赤",
+    "pccs_notation": "d6",
+    "munsell_value": "3Y 6/6",
+    "color_code": "#D2B48C",
+    "explanation": "タンニンでなめした牛革の色。優しいニュアンスのベージュ寄り。"
+  },
+  {
+    "id": 20,
+    "grade": 2,
+    "color_name": "琥珀色(こはくいろ)",
+    "system_name": "くすんだ赤みの黄",
+    "pccs_notation": "d7",
+    "munsell_value": "10YR 6/8",
+    "color_code": "#CA7A2C",
+    "explanation": "琥珀宝石由来の透明感ある茶褐色。上品さとアンティーク感が漂う。"
+  },
+  {
+    "id": 21,
+    "grade": 2,
+    "color_name": "朽葉色(くちばいろ)",
+    "system_name": "灰みの赤みを帯びた黄",
+    "pccs_notation": "sf8",
+    "munsell_value": "2.5Y 7/4",
+    "color_code": "#C1A361",
+    "explanation": "枯葉のような渋く落ち着きある明るい黄土色。"
+  },
+  {
+    "id": 22,
+    "grade": 2,
+    "color_name": "鬱金色(うこんいろ)",
+    "system_name": "つよい黄",
+    "pccs_notation": "v8",
+    "munsell_value": "2.5Y 8/10",
+    "color_code": "#FFD900",
+    "explanation": "ウコンの根にちなむ明るい黄。カレー粉の色としても有名。"
+  },
+  {
+    "id": 23,
+    "grade": 2,
+    "color_name": "刈安色(かりやすいろ)",
+    "system_name": "うすい緑みの黄",
+    "pccs_notation": "p10+",
+    "munsell_value": "2.5GY 8/6",
+    "color_code": "#ECE885",
+    "explanation": "伝統的な草木染の色。淡く優しい黄緑寄りの黄。"
+  },
+  {
+    "id": 24,
+    "grade": 2,
+    "color_name": "エクルベイジュ",
+    "system_name": "うすい赤みの黄",
+    "pccs_notation": "p6+",
+    "munsell_value": "9YR 8/3",
+    "color_code": "#FDE8D0",
+    "explanation": "フランス語由来の生成色。インテリア・ファッションに好まれるナチュラルカラー。"
+  },
+  {
+    "id": 25,
+    "grade": 2,
+    "color_name": "ゴールデンイエロー",
+    "system_name": "つよい赤みの黄",
+    "pccs_notation": "v7",
+    "munsell_value": "10YR 8/12",
+    "color_code": "#FFC72C",
+    "explanation": "派手さと気品を持つ黄金色。祝祭や高級感の演出に活用。"
+  },
+  {
+    "id": 26,
+    "grade": 2,
+    "color_name": "アンバー",
+    "system_name": "くすんだ赤みの黄",
+    "pccs_notation": "d7",
+    "munsell_value": "2.5Y 6/8",
+    "color_code": "#C39043",
+    "explanation": "琥珀を英訳した色名。深みや重厚感あり、間接照明のイメージカラーにも。"
+  },
+  {
+    "id": 27,
+    "grade": 2,
+    "color_name": "バーントアンバー",
+    "system_name": "ごく暗い赤みの黄",
+    "pccs_notation": "dkg7",
+    "munsell_value": "7.5YR 3/3",
+    "color_code": "#80643A",
+    "explanation": "焦げたアンバー＝古典絵画材料色。重厚なインテリア・工芸に。"
+  },
+  {
+    "id": 28,
+    "grade": 2,
+    "color_name": "ローアンバー",
+    "system_name": "暗い黄",
+    "pccs_notation": "dk7",
+    "munsell_value": "7.5YR 4/4",
+    "color_code": "#926C48",
+    "explanation": "生アンバー、やや渋みのあるオーカー色。"
+  },
+  {
+    "id": 29,
+    "grade": 2,
+    "color_name": "ネープルスイエロー",
+    "system_name": "つよい黄",
+    "pccs_notation": "v8",
+    "munsell_value": "2.5Y 9/6",
+    "color_code": "#FCE883",
+    "explanation": "ナポリ由来。絵画用顔料色。やわらかで膨張感のある黄。"
+  },
+  {
+    "id": 30,
+    "grade": 2,
+    "color_name": "ジョンブリアン",
+    "system_name": "あざやかな黄",
+    "pccs_notation": "v8",
+    "munsell_value": "5Y 9/10",
+    "color_code": "#FFF352",
+    "explanation": "フランス画家ジャン＝バティスト由来。ボリューム感ある華やかな黄。"
+  },
+  {
+    "id": 31,
+    "grade": 2,
+    "color_name": "黄蘗色(きはだいろ)",
+    "system_name": "あかるい黄緑",
+    "pccs_notation": "b10",
+    "munsell_value": "2.5GY 9/6",
+    "color_code": "#F9F870",
+    "explanation": "ミカン科の樹皮の色。淡く、鶯色より黄みやさしい。"
+  },
+  {
+    "id": 32,
+    "grade": 2,
+    "color_name": "海松色(みるいろ)",
+    "system_name": "暗い灰みの黄緑",
+    "pccs_notation": "dk10",
+    "munsell_value": "7.5GY 4/3",
+    "color_code": "#505D18",
+    "explanation": "海藻のみる色に由来。深みのある落ち着いた緑色。"
+  },
+  {
+    "id": 33,
+    "grade": 2,
+    "color_name": "鶸色(ひわいろ)",
+    "system_name": "つよい黄緑",
+    "pccs_notation": "dp10",
+    "munsell_value": "2.5GY 7/9",
+    "color_code": "#CCCC68",
+    "explanation": "ヒワ小鳥の羽色に由来する明るく可愛らしい黄緑色。"
+  },
+  {
+    "id": 34,
+    "grade": 2,
+    "color_name": "シャトルーズグリーン",
+    "system_name": "明るい黄緑",
+    "pccs_notation": "b10",
+    "munsell_value": "5GY 8/8",
+    "color_code": "#D4FF00",
+    "explanation": "フランスのリキュールから。爽快で都会的な黄緑。"
+  },
+  {
+    "id": 35,
+    "grade": 2,
+    "color_name": "リーフグリーン",
+    "system_name": "つよい黄緑",
+    "pccs_notation": "b10",
+    "munsell_value": "5GY 8/8",
+    "color_code": "#7BBB65",
+    "explanation": "新芽や葉を想起。フレッシュで明るいイメージ。"
+  },
+  {
+    "id": 36,
+    "grade": 2,
+    "color_name": "グラスグリーン",
+    "system_name": "くすんだ黄緑",
+    "pccs_notation": "d10",
+    "munsell_value": "5GY 5/6",
+    "color_code": "#4C9A2A",
+    "explanation": "草や芝生の色。日常やナチュラルな装飾に活躍。"
+  },
+  {
+    "id": 37,
+    "grade": 2,
+    "color_name": "常磐色(ときわいろ)",
+    "system_name": "こい緑",
+    "pccs_notation": "b12",
+    "munsell_value": "5G 3/7",
+    "color_code": "#007041",
+    "explanation": "常緑の松などに通じる深いグリーン。安定・伝統の象徴。"
+  },
+  {
+    "id": 38,
+    "grade": 2,
+    "color_name": "緑青色(ろくしょういろ)",
+    "system_name": "くすんだ緑",
+    "pccs_notation": "d12",
+    "munsell_value": "10G 4/6",
+    "color_code": "#47885E",
+    "explanation": "銅の錆（緑青）のやや青みを含む緑色。クラシカルな雰囲気。"
+  },
+  {
+    "id": 39,
+    "grade": 2,
+    "color_name": "アップルグリーン",
+    "system_name": "やわらかい黄みの緑",
+    "pccs_notation": "sf10",
+    "munsell_value": "2.5GY 8/5",
+    "color_code": "#BEE281",
+    "explanation": "青リンゴの果皮の色。明るくフレッシュ、若々しい緑。"
+  },
+  {
+    "id": 40,
+    "grade": 2,
+    "color_name": "ミントグリーン",
+    "system_name": "明るい緑",
+    "pccs_notation": "p12+",
+    "munsell_value": "5G 9/5",
+    "color_code": "#BCE2E8",
+    "explanation": "ミントの葉に例えられる爽やかな明るい緑。清潔・健康的イメージ。"
+  },
+  {
+    "id": 41,
+    "grade": 2,
+    "color_name": "マラカイトグリーン",
+    "system_name": "こい緑",
+    "pccs_notation": "dp12",
+    "munsell_value": "10G 4/10",
+    "color_code": "#11853F",
+    "explanation": "鉱石マラカイト由来。力強さと高級感がある。"
+  },
+  {
+    "id": 42,
+    "grade": 2,
+    "color_name": "ボトルグリーン",
+    "system_name": "ごく暗い緑",
+    "pccs_notation": "dkg12",
+    "munsell_value": "5G 2/2",
+    "color_code": "#004B49",
+    "explanation": "ワインなどの瓶色から。深い緑で重厚な雰囲気を醸す。"
+  },
+  {
+    "id": 43,
+    "grade": 2,
+    "color_name": "鉄色(てついろ)",
+    "system_name": "ごく暗い青緑",
+    "pccs_notation": "dkg16",
+    "munsell_value": "5BG 2/2",
+    "color_code": "#005243",
+    "explanation": "鉄の錆や古びた武具のイメージ。重厚・堅牢感あり。"
+  },
+  {
+    "id": 44,
+    "grade": 2,
+    "color_name": "ピーコックグリーン",
+    "system_name": "青緑",
+    "pccs_notation": "v16",
+    "munsell_value": "10BG 5/8",
+    "color_code": "#00A591",
+    "explanation": "孔雀羽根色。鮮やかでエキゾチック。ファッションやデザインの差し色に。"
+  },
+  {
+    "id": 45,
+    "grade": 2,
+    "color_name": "ナイルブルー",
+    "system_name": "くすんだ青緑",
+    "pccs_notation": "d16",
+    "munsell_value": "10BG 6/4",
+    "color_code": "#38B48B",
+    "explanation": "ナイル川のイメージ。やや緑みがかった落ち着いた水色。"
+  },
+  {
+    "id": 46,
+    "grade": 2,
+    "color_name": "新橋色(しんばしいろ)",
+    "system_name": "明るい緑みの青",
+    "pccs_notation": "b16",
+    "munsell_value": "5B 8/6",
+    "color_code": "#7B9FC9",
+    "explanation": "東京の新橋芸者に因んだ水色。さっぱり軽快な春夏色。"
+  },
+  {
+    "id": 47,
+    "grade": 2,
+    "color_name": "納戸色(なんどいろ)",
+    "system_name": "つよい緑みの青",
+    "pccs_notation": "dp16",
+    "munsell_value": "10B 5/6",
+    "color_code": "#478384",
+    "explanation": "江戸時代武家に流行。深みがあり穏やかな青緑。"
+  },
+  {
+    "id": 48,
+    "grade": 2,
+    "color_name": "甕覗(かめのぞき)",
+    "system_name": "やわらかい緑みの青",
+    "pccs_notation": "sf16",
+    "munsell_value": "5B 8/2",
+    "color_code": "#A2D7DD",
+    "explanation": "壺の釉薬から。淡く優美。穏やかで女性的。"
+  },
+  {
+    "id": 49,
+    "grade": 2,
+    "color_name": "縹色(はなだいろ)",
+    "system_name": "つよい青",
+    "pccs_notation": "dp18",
+    "munsell_value": "5B 6/10",
+    "color_code": "#2792C3",
+    "explanation": "古くからの藍染色。クールで活発なイメージ。"
+  },
+  {
+    "id": 50,
+    "grade": 2,
+    "color_name": "セルリアンブルー",
+    "system_name": "あざやかな青",
+    "pccs_notation": "v18",
+    "munsell_value": "3PB 5/10",
+    "color_code": "#007BA7",
+    "explanation": "空や海の色を表現。ビビッドで開放的な印象。"
+  },
+  {
+    "id": 51,
+    "grade": 2,
+    "color_name": "サックスブルー",
+    "system_name": "くすんだ青",
+    "pccs_notation": "d18",
+    "munsell_value": "5B 6/4",
+    "color_code": "#7E99A3",
+    "explanation": "楽器サクソフォンを由来にした柔らかい青。"
+  },
+  {
+    "id": 52,
+    "grade": 2,
+    "color_name": "ミッドナイトブルー",
+    "system_name": "ごく暗い紫みの青",
+    "pccs_notation": "dkg19",
+    "munsell_value": "9PB 2/2",
+    "color_code": "#191970",
+    "explanation": "夜空の深さを思わせる神秘的な濃青。"
+  },
+  {
+    "id": 53,
+    "grade": 2,
+    "color_name": "藤色(ふじいろ)",
+    "system_name": "明るい青紫",
+    "pccs_notation": "p20+",
+    "munsell_value": "10PB 7/6",
+    "color_code": "#BBBCDE",
+    "explanation": "藤の花の優雅さや爽やかさをイメージ。和風の春色。"
+  },
+  {
+    "id": 54,
+    "grade": 2,
+    "color_name": "ウィスタリア",
+    "system_name": "あざやかな青紫",
+    "pccs_notation": "v20",
+    "munsell_value": "7.5PB 6/10",
+    "color_code": "#ACACE6",
+    "explanation": "西洋藤の花に由来。爽やかで上品な明るい紫色。"
+  },
+  {
+    "id": 55,
+    "grade": 2,
+    "color_name": "江戸紫(えどむらさき)",
+    "system_name": "こい青みの紫",
+    "pccs_notation": "dp22",
+    "munsell_value": "10P 4/10",
+    "color_code": "#77428D",
+    "explanation": "江戸町人に親しまれた日本伝統の紫。高貴さと粋を感じる。"
+  },
+  {
+    "id": 56,
+    "grade": 2,
+    "color_name": "古代紫(こだいむらさき)",
+    "system_name": "くすんだ紫",
+    "pccs_notation": "d22",
+    "munsell_value": "2.5P 3/6",
+    "color_code": "#893B73",
+    "explanation": "歴史的な染色の紫色。重厚感や深みを感じさせる。"
+  },
+  {
+    "id": 57,
+    "grade": 2,
+    "color_name": "ライラック",
+    "system_name": "やわらかい紫",
+    "pccs_notation": "sf22",
+    "munsell_value": "5P 7/4",
+    "color_code": "#B28FCE",
+    "explanation": "ライラック花に由来。優しく女性的で、春の装いに。"
+  },
+  {
+    "id": 58,
+    "grade": 2,
+    "color_name": "銀鼠(ぎんねず)",
+    "system_name": "明るい灰色",
+    "pccs_notation": "Gy-7.5",
+    "munsell_value": "N7.5",
+    "color_code": "#C0C6C9",
+    "explanation": "銀色をイメージした明るいグレイ。スタイリッシュで現代的。"
+  },
+  {
+    "id": 59,
+    "grade": 2,
+    "color_name": "茶鼠(ちゃねず)",
+    "system_name": "黄赤みの灰色",
+    "pccs_notation": "Gy-6.0",
+    "munsell_value": "N6",
+    "color_code": "#A99E93",
+    "explanation": "茶色味を帯びた温かみのあるグレー。優しさと柔らかさを演出。"
+  },
+  {
+    "id": 60,
+    "grade": 2,
+    "color_name": "利休鼠(りきゅうねずみ)",
+    "system_name": "緑みの灰色",
+    "pccs_notation": "Gy-5.0",
+    "munsell_value": "N5",
+    "color_code": "#93988B",
+    "explanation": "千利休の茶室壁色由来、和の静謐感が特徴。"
+  },
+  {
+    "id": 122,
+    "grade": 2,
+    "color_name": "煤竹色(すすたけいろ)",
+    "system_name": "赤みを帯びた黄みの暗い灰色",
+    "pccs_notation": "dkg6",
+    "munsell_value": "10YR 2/2",
+    "color_code": "#6E4B3A",
+    "explanation": "煤の入った古竹の色。渋味・重厚感あり。"
+  },
+  {
+    "id": 123,
+    "grade": 2,
+    "color_name": "スレートグレイ",
+    "system_name": "暗い灰色",
+    "pccs_notation": "Gy-4.0",
+    "munsell_value": "N4",
+    "color_code": "#4D4C61",
+    "explanation": "板岩（スレート）を意識した青紫みの暗いグレー。"
+  },
+  {
+    "id": 124,
+    "grade": 2,
+    "color_name": "ランプブラック",
+    "system_name": "黒",
+    "pccs_notation": "Gy-1.0",
+    "munsell_value": "N1",
+    "color_code": "#221814",
+    "explanation": "ランプ煤を原料とする純粋な黒。重厚感の象徴、引き締め色。"
+  }
+]

@@ -1,0 +1,263 @@
+
+[
+  {
+    "id": 1,
+    "type": "lightness",
+    "direction": "desc",
+    "description": "明度が高い（明るい）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "スノーグレー", "system_name": "ごく明るい灰色", "color_code": "#E9E9E6", "munsell_value": "N9" },
+      { "color_name": "クールグレー", "system_name": "灰色", "color_code": "#A6A6A6", "munsell_value": "N6.5" },
+      { "color_name": "スモークグレー", "system_name": "やや暗い灰色", "color_code": "#8D8E8A", "munsell_value": "N5.5" },
+      { "color_name": "オニキスグレー", "system_name": "暗い灰色", "color_code": "#666666", "munsell_value": "N4" },
+      { "color_name": "スティールグレー", "system_name": "ごく暗い灰色", "color_code": "#434343", "munsell_value": "N2.5" }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "lightness",
+    "direction": "desc",
+    "description": "明度が高い（明るい）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "ベビーブルー", "system_name": "ごくうすい青", "color_code": "#BEE3E6", "munsell_value": "10B 8/3" },
+      { "color_name": "サックスブルー", "system_name": "うすい緑みの青", "color_code": "#BCE2E8", "munsell_value": "2.5B 8/4" },
+      { "color_name": "コバルトブルー", "system_name": "あざやかな青", "color_code": "#3A8DD1", "munsell_value": "3PB 5/10" },
+      { "color_name": "プルシャンブルー", "system_name": "ごく暗い紫みの青", "color_code": "#1C305C", "munsell_value": "5PB 2/6" },
+      { "color_name": "鉄紺(てつこん)", "system_name": "ごく暗い紫みの青", "color_code": "#17184B", "munsell_value": "7.5PB 2/4" }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "lightness",
+    "direction": "asc",
+    "description": "明度が低い（暗い）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "マルーン", "system_name": "くらい赤", "color_code": "#7B3B3B", "munsell_value": "5R 3/6" },
+      { "color_name": "茜色(あかねいろ)", "system_name": "つよい黄みの赤", "color_code": "#B7282E", "munsell_value": "4R 4/11" },
+      { "color_name": "ポピーレッド", "system_name": "あざやかな赤", "color_code": "#E95464", "munsell_value": "4R 6/12" },
+      { "color_name": "ローズピンク", "system_name": "あかるい赤", "color_code": "#F17C67", "munsell_value": "8R 7/9" },
+      { "color_name": "桜色(さくらいろ)", "system_name": "ごくうすい紫みの赤", "color_code": "#FEDFE1", "munsell_value": "10RP 9/2.5" }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "lightness",
+    "direction": "desc",
+    "description": "明度が高い（明るい）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "若葉色(わかばいろ)", "system_name": "あかるい黄緑", "color_code": "#B9D08B", "munsell_value": "5GY 8/6" },
+      { "color_name": "リーフグリーン", "system_name": "つよい黄緑", "color_code": "#7BA23F", "munsell_value": "5GY 6/8" },
+      { "color_name": "シャムロックグリーン", "system_name": "あざやかな緑", "color_code": "#319A7D", "munsell_value": "5G 5.5/9" },
+      { "color_name": "マラカイトグリーン", "system_name": "こい青みの緑", "color_code": "#24936E", "munsell_value": "10G 4/10" },
+      { "color_name": "海松色(みるいろ)", "system_name": "暗い黄緑", "color_code": "#5A544B", "munsell_value": "7.5GY 3.5/2" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "lightness",
+    "direction": "asc",
+    "description": "明度が低い（暗い）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "セピア", "system_name": "ごく暗い黄み", "color_code": "#6A4C2B", "munsell_value": "10YR 2.5/2" },
+      { "color_name": "代赭(たいしゃ)", "system_name": "くすんだ赤みの黄", "color_code": "#A36336", "munsell_value": "10R 5/6" },
+      { "color_name": "黄土色(おうどいろ)", "system_name": "くすんだ黄", "color_code": "#C39143", "munsell_value": "10YR 6/7.5" },
+      { "color_name": "山吹色(やまぶきいろ)", "system_name": "あざやかな黄", "color_code": "#FFC408", "munsell_value": "10YR 7.5/13" },
+      { "color_name": "カナリア", "system_name": "あざやかな緑みの黄", "color_code": "#FFF263", "munsell_value": "7Y 8.5/10" }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "saturation",
+    "direction": "desc",
+    "description": "彩度が高い（鮮やかな）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "韓紅花(からくれない)", "system_name": "あざやかな赤", "color_code": "#D93367", "munsell_value": "4R 5/14" },
+      { "color_name": "ローズピンク", "system_name": "あかるい赤", "color_code": "#F17C67", "munsell_value": "8R 7/9" },
+      { "color_name": "オールドローズ", "system_name": "くすんだ赤", "color_code": "#C27C88", "munsell_value": "7.5R 5/8" },
+      { "color_name": "鴇色(ときいろ)", "system_name": "やわらかい紫みの赤", "color_code": "#F4B3C2", "munsell_value": "10RP 8/4" },
+      { "color_name": "ローズグレー", "system_name": "赤みの灰色", "color_code": "#B9A893", "munsell_value": "5R 6.5/1" }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "saturation",
+    "direction": "asc",
+    "description": "彩度が低い（穏やかな）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "青竹色(あおたけいろ)", "system_name": "くすんだ青緑", "color_code": "#68BE8D", "munsell_value": "7.5G 6.5/4" },
+      { "color_name": "ミントグリーン", "system_name": "うすい黄緑", "color_code": "#E0EBAF", "munsell_value": "5GY 8.5/4" },
+      { "color_name": "萌黄(もえぎ)", "system_name": "あざやかな黄緑", "color_code": "#BAD282", "munsell_value": "2.5GY 7/9" },
+      { "color_name": "グラスグリーン", "system_name": "あかるい黄緑", "color_code": "#BBCF4A", "munsell_value": "5GY 8/8" },
+      { "color_name": "ビリジアン", "system_name": "あざやかな青みの緑", "color_code": "#00947A", "munsell_value": "8G 4/10" }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "saturation",
+    "direction": "desc",
+    "description": "彩度が高い（鮮やかな）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "群青色(ぐんじょういろ)", "system_name": "あざやかな紫みの青", "color_code": "#434DA2", "munsell_value": "7.5PB 3.5/11" },
+      { "color_name": "コバルトブルー", "system_name": "あざやかな青", "color_code": "#3A8DD1", "munsell_value": "3PB 4/10" },
+      { "color_name": "マリンブルー", "system_name": "あざやかな青", "color_code": "#2468AC", "munsell_value": "5B 3/7" },
+      { "color_name": "新橋色(しんばしいろ)", "system_name": "あかるい緑みの青", "color_code": "#59B9C6", "munsell_value": "5B 8/6" },
+      { "color_name": "フレンチグレー", "system_name": "灰色", "color_code": "#A8A8A8", "munsell_value": "N6.5" }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "saturation",
+    "direction": "asc",
+    "description": "彩度が低い（穏やかな）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "鳩羽色(はとばいろ)", "system_name": "紫みの灰色", "color_code": "#9E8B8E", "munsell_value": "10P 5.5/1" },
+      { "color_name": "ラベンダー", "system_name": "やわらかい青みの紫", "color_code": "#B28FCE", "munsell_value": "5P 6/3" },
+      { "color_name": "藤色(ふじいろ)", "system_name": "あかるい紫", "color_code": "#8B81C3", "munsell_value": "10PB 7/6" },
+      { "color_name": "江戸紫(えどむらさき)", "system_name": "こい青みの紫", "color_code": "#745399", "munsell_value": "10P 4/10" },
+      { "color_name": "桔梗色(ききょういろ)", "system_name": "あざやかな青みの紫", "color_code": "#5654A2", "munsell_value": "9PB 3.5/13" }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "saturation",
+    "direction": "desc",
+    "description": "彩度が高い（鮮やかな）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "黄丹(おうに)", "system_name": "あざやかな赤みの黄", "color_code": "#F37021", "munsell_value": "6R 6/12" },
+      { "color_name": "山吹色(やまぶきいろ)", "system_name": "あざやかな黄", "color_code": "#FFC408", "munsell_value": "10YR 7.5/13" },
+      { "color_name": "琥珀色(こはくいろ)", "system_name": "つよい黄赤", "color_code": "#CA7A2C", "munsell_value": "8R 7/12" },
+      { "color_name": "芥子色(からしいろ)", "system_name": "にぶい黄", "color_code": "#C3A537", "munsell_value": "3Y 5/6" },
+      { "color_name": "朽葉色(くちばいろ)", "system_name": "にぶい黄", "color_code": "#B3A369", "munsell_value": "2.5Y 7/4" }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "lightness",
+    "direction": "asc",
+    "description": "明度が低い（暗い）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "茄子紺(なすこん)", "system_name": "ごく暗い紫", "color_code": "#583131", "munsell_value": "7.5P 2.5/2.5" },
+      { "color_name": "古代紫(こだいむらさき)", "system_name": "くすんだ紫", "color_code": "#893B73", "munsell_value": "2.5P 3/6" },
+      { "color_name": "江戸紫(えどむらさき)", "system_name": "こい青みの紫", "color_code": "#77428D", "munsell_value": "10P 4/10" },
+      { "color_name": "モーブ", "system_name": "つよい青みの紫", "color_code": "#915DA3", "munsell_value": "5P 4.5/9" },
+      { "color_name": "藤色(ふじいろ)", "system_name": "明るい青紫", "color_code": "#BBBCDE", "munsell_value": "10PB 7/6" }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "lightness",
+    "direction": "desc",
+    "description": "明度が高い（明るい）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "クリームイエロー", "system_name": "ごくうすい黄", "color_code": "#FFF7AE", "munsell_value": "5Y 8.5/3.5" },
+      { "color_name": "ブロンド", "system_name": "やわらかい黄", "color_code": "#F7E199", "munsell_value": "2Y 7.5/7" },
+      { "color_name": "芥子色(からしいろ)", "system_name": "やわらかい黄", "color_code": "#D7CF3A", "munsell_value": "3Y 7/6" },
+      { "color_name": "黄土色(おうどいろ)", "system_name": "くすんだ赤みの黄", "color_code": "#C39143", "munsell_value": "10YR 6/7.5" },
+      { "color_name": "栗色(くりいろ)", "system_name": "暗い灰みの黄赤", "color_code": "#762F07", "munsell_value": "2YR 3.5/4" }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "saturation",
+    "direction": "desc",
+    "description": "彩度が高い（鮮やかな）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "スカーレット", "system_name": "あざやかな黄みの赤", "color_code": "#FF2400", "munsell_value": "7R 5/14" },
+      { "color_name": "朱色(しゅいろ)", "system_name": "あざやかな黄みの赤", "color_code": "#DD4827", "munsell_value": "6R 5.5/14" },
+      { "color_name": "紅梅色(こうばいいろ)", "system_name": "やわらかい赤", "color_code": "#EA9395", "munsell_value": "2.5R 6.5/7.5" },
+      { "color_name": "煉瓦色(れんがいろ)", "system_name": "暗い黄赤", "color_code": "#B55233", "munsell_value": "10R 4/7" },
+      { "color_name": "ボルドー", "system_name": "ごく暗い赤", "color_code": "#3A2C2E", "munsell_value": "2.5R 2.5/3" }
+    ]
+  },
+  {
+    "id": 14,
+    "type": "saturation",
+    "direction": "asc",
+    "description": "彩度が低い（穏やかな）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "サックスブルー", "system_name": "くすんだ青", "color_code": "#7E99A3", "munsell_value": "5B 6/4" },
+      { "color_name": "ベビーブルー", "system_name": "明るい灰みの青", "color_code": "#C7E6EC", "munsell_value": "10B 7.5/3" },
+      { "color_name": "浅葱色(あさぎいろ)", "system_name": "あざやかな緑みの青", "color_code": "#33A6B8", "munsell_value": "2.5B 5/8" },
+      { "color_name": "スカイブルー", "system_name": "明るい青", "color_code": "#87CEEB", "munsell_value": "9B 7.5/5.5" },
+      { "color_name": "シアン", "system_name": "明るい青", "color_code": "#009CD1", "munsell_value": "7.5B 6/10" }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "lightness",
+    "direction": "asc",
+    "description": "明度が低い（暗い）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "ボトルグリーン", "system_name": "ごく暗い緑", "color_code": "#004B49", "munsell_value": "5G 2/2" },
+      { "color_name": "常磐色(ときわいろ)", "system_name": "こい緑", "color_code": "#007041", "munsell_value": "5G 3/7" },
+      { "color_name": "緑青色(ろくしょういろ)", "system_name": "くすんだ緑", "color_code": "#47885E", "munsell_value": "10G 4/6" },
+      { "color_name": "青磁色(せいじいろ)", "system_name": "やわらかい青みの緑", "color_code": "#7EBEA5", "munsell_value": "7.5G 6.5/4" },
+      { "color_name": "ミントグリーン", "system_name": "明るい緑", "color_code": "#BCE2E8", "munsell_value": "5G 9/5" }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "lightness",
+    "direction": "desc",
+    "description": "明度が高い（明るい）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "アイボリー", "system_name": "黄みのうすい灰色", "color_code": "#F8F4E6", "munsell_value": "2.5Y 8.5/1.5" },
+      { "color_name": "シルバーグレイ", "system_name": "明るい灰色", "color_code": "#C9C9C9", "munsell_value": "N6.5" },
+      { "color_name": "利休鼠(りきゅうねずみ)", "system_name": "緑みの灰色", "color_code": "#93988B", "munsell_value": "N5" },
+      { "color_name": "チャコールグレイ", "system_name": "紫みの暗い灰色", "color_code": "#595457", "munsell_value": "5P 3/1" },
+      { "color_name": "ランプブラック", "system_name": "黒", "color_code": "#221814", "munsell_value": "N1" }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "saturation",
+    "direction": "desc",
+    "description": "彩度が高い（鮮やかな）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "シャトルーズグリーン", "system_name": "明るい黄緑", "color_code": "#D4FF00", "munsell_value": "5GY 8/8" },
+      { "color_name": "アップルグリーン", "system_name": "やわらかい黄みの緑", "color_code": "#BEE281", "munsell_value": "2.5GY 8/5" },
+      { "color_name": "萌黄(もえぎ)", "system_name": "つよい黄緑", "color_code": "#A8C97F", "munsell_value": "4GY 6.5/9" },
+      { "color_name": "オリーブグリーン", "system_name": "暗い灰みの黄緑", "color_code": "#585E43", "munsell_value": "2.5GY 3.5/3" },
+      { "color_name": "利休鼠(りきゅうねずみ)", "system_name": "緑みの灰色", "color_code": "#93988B", "munsell_value": "N5" }
+    ]
+  },
+  {
+    "id": 18,
+    "type": "saturation",
+    "direction": "asc",
+    "description": "彩度が低い（穏やかな）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "茶鼠(ちゃねず)", "system_name": "黄赤みの灰色", "color_code": "#A99E93", "munsell_value": "N6" },
+      { "color_name": "タン", "system_name": "くすんだ黄赤", "color_code": "#D2B48C", "munsell_value": "3Y 6/6" },
+      { "color_name": "代赭(たいしゃ)", "system_name": "くすんだ黄赤", "color_code": "#B55233", "munsell_value": "10R 5/6" },
+      { "color_name": "サーモンピンク", "system_name": "やわらかい黄みの赤", "color_code": "#F8B7A0", "munsell_value": "8R 7.5/7.5" },
+      { "color_name": "スカーレット", "system_name": "あざやかな黄みの赤", "color_code": "#FF2400", "munsell_value": "7R 5/14" }
+    ]
+  },
+  {
+    "id": 19,
+    "type": "lightness",
+    "direction": "asc",
+    "description": "明度が低い（暗い）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "バーガンディー", "system_name": "ごく暗い紫みの赤", "color_code": "#6B242C", "munsell_value": "10RP 2/4" },
+      { "color_name": "蘇芳(すおう)", "system_name": "くすんだ赤", "color_code": "#844B49", "munsell_value": "4R 3/10" },
+      { "color_name": "オールドローズ", "system_name": "やわらかい赤", "color_code": "#C08081", "munsell_value": "7.5R 5/8" },
+      { "color_name": "鴇色(ときいろ)", "system_name": "明るい紫みの赤", "color_code": "#E58E8E", "munsell_value": "7.5R 7/8" },
+      { "color_name": "桜色(さくらいろ)", "system_name": "ごくうすい紫みの赤", "color_code": "#FCEEEB", "munsell_value": "10RP 9/2.5" }
+    ]
+  },
+  {
+    "id": 20,
+    "type": "saturation",
+    "direction": "desc",
+    "description": "彩度が高い（鮮やかな）順に並べ替えなさい",
+    "colors": [
+      { "color_name": "マゼンタ", "system_name": "あざやかな赤紫", "color_code": "#E4007F", "munsell_value": "5RP 5/14" },
+      { "color_name": "牡丹色(ぼたんいろ)", "system_name": "あざやかな赤紫", "color_code": "#E7609E", "munsell_value": "3RP 5/14" },
+      { "color_name": "菖蒲色(あやめいろ)", "system_name": "明るい赤みの紫", "color_code": "#6F3381", "munsell_value": "10P 6/10" },
+      { "color_name": "古代紫(こだいむらさき)", "system_name": "くすんだ紫", "color_code": "#893B73", "munsell_value": "2.5P 3/6" },
+      { "color_name": "鳩羽色(はとばいろ)", "system_name": "紫みの灰色", "color_code": "#9E8B8E", "munsell_value": "10P 5.5/1" }
+    ]
+  }
+]

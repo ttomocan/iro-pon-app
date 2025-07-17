@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { ColorData } from '../types';
 import Button from './Button';
@@ -12,7 +13,7 @@ const ColorListScreen: React.FC<ColorListScreenProps> = ({ onGoHome }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('../data/colors.json')
+    fetch('/data/colors.json')
       .then(res => res.json())
       .then((data: ColorData[]) => {
         setAllColors(data);

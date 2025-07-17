@@ -56,7 +56,7 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
 
 
     useEffect(() => {
-        fetch('../data/grade1_colors.json')
+        fetch('/data/grade1_colors.json')
             .then(res => res.json())
             .then((data: GradientQuizQuestion[]) => {
                 setQuestions(shuffleArray(data).slice(0, TOTAL_QUESTIONS));

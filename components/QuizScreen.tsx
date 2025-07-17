@@ -44,7 +44,7 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ grade, onQuizComplete, onGoHome
 
   // Effect to fetch color data from the JSON file.
   useEffect(() => {
-    fetch('../data/colors.json')
+    fetch('/data/colors.json')
       .then(res => {
         if (!res.ok) {
           throw new Error('Failed to load color data');

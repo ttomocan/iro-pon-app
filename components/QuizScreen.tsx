@@ -175,7 +175,7 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ grade, onQuizComplete, onGoHome
 				</header>
 
 				<main className='flex-grow flex flex-col items-center justify-center'>
-					<div className='w-full max-w-md bg-white p-6 rounded-2xl shadow-2xl border border-slate-200'>
+					<div className='w-full max-w-md bg-white p-4 rounded-2xl shadow-2xl border border-slate-200'>
 						<div className='w-full h-48 sm:h-64 rounded-xl mb-8 border-8 border-slate-100 shadow-inner' style={{ backgroundColor: currentQuestion.correctAnswer.color_code }}></div>
 
 						<div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>

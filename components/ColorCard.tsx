@@ -7,7 +7,7 @@ interface ColorCardProps {
 
 const ColorCard: React.FC<ColorCardProps> = ({ color }) => {
 	return (
-		<div className='bg-white rounded-lg shadow-md p-4 border border-slate-200 flex flex-col transition-all duration-300 hover:shadow-xl hover:scale-105'>
+		<div className='bg-white rounded-lg shadow-md p-3 border border-slate-200 flex flex-col transition-all duration-300 hover:shadow-xl hover:scale-105'>
 			<div className='w-full h-24 rounded-md mb-3 border border-slate-200' style={{ backgroundColor: color.color_code }}></div>
 			<div className='flex-grow'>
 				<h3 className='text-lg font-bold text-slate-900'>{color.color_name}</h3>

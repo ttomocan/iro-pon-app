@@ -178,7 +178,7 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
 				)}
 
 				{isSubmitted && (
-					<div className='mt-8 pt-6 border-t border-slate-200 animate-fade-in'>
+					<div className='mt-8 pt-6 border-t border-slate-200 animate-fade-in max-h-[60vh] overflow-y-auto'>
 						<div className='text-center mb-6'>
 							{isCorrect ? (
 								<div className='inline-flex items-center gap-2 text-3xl font-bold text-green-600'>

@@ -131,11 +131,11 @@ const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose }) => {
 							</label>
 							<select id='subject' name='subject' value={formData.subject} onChange={handleChange} required className='w-full px-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent'>
 								<option value=''>選択してください</option>
-								<option value='bug'>バグ報告</option>
-								<option value='feature'>機能要望</option>
-								<option value='improvement'>改善提案</option>
-								<option value='question'>質問・相談</option>
-								<option value='other'>その他</option>
+								<option value='バグ報告'>バグ報告</option>
+								<option value='機能要望'>機能要望</option>
+								<option value='改善提案'>改善提案</option>
+								<option value='質問・相談'>質問・相談</option>
+								<option value='その他'>その他</option>
 							</select>
 						</div>
 

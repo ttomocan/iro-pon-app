@@ -28,12 +28,32 @@ const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose }) => {
 		e.preventDefault();
 		setIsSubmitting(true);
 
-		// 実際の送信処理は後で実装
-		// ここでは送信成功のシミュレーション
-		setTimeout(() => {
+		try {
+			// Formspreeを使用したメール送信
+			const response = await fetch('https://formspree.io/f/mwpqpldv', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify({
+					name: formData.name,
+					email: formData.email,
+					subject: formData.subject,
+					message: formData.message,
+				}),
+			});
+
+			if (response.ok) {
+				setIsSubmitting(false);
+				setIsSubmitted(true);
+			} else {
+				throw new Error('送信に失敗しました');
+			}
+		} catch (error) {
+			console.error('送信エラー:', error);
 			setIsSubmitting(false);
-			setIsSubmitted(true);
-		}, 1000);
+			alert('送信に失敗しました。しばらく時間をおいて再度お試しください。');
+		}
 	};
 
 	if (!isOpen) {
@@ -78,7 +98,8 @@ const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose }) => {
 						</button>
 					</div>
 
-					<form onSubmit={handleSubmit} className='space-y-6'>
+					<form onSubmit={handleSubmit} className='space-y-6' name='contact' method='POST' data-netlify='true'>
+						<input type='hidden' name='form-name' value='contact' />
 						<div>
 							<label htmlFor='name' className='block text-sm font-medium text-slate-700 mb-2'>
 								お名前 <span className='text-red-500'>*</span>

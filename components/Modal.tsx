@@ -67,7 +67,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, isCorrect, colorData }) 
 					<p className='text-slate-600 text-left text-base leading-relaxed mb-8'>{explanation}</p>
 				</div>
 
-				<div className='p-6 sm:p-8 border-t border-slate-200 bg-white'>
+				<div className='p-4 sm:p-8 border-t border-slate-200 bg-white'>
 					<Button onClick={onClose} variant='primary'>
 						次へ
 					</Button>

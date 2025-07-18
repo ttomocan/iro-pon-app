@@ -51,15 +51,19 @@ const App: React.FC = () => {
 	 * @param grade The selected grade (e.g., 3, 2, or 1).
 	 */
 	const handleSelectGrade = (grade: number) => {
-		// Grade 3 is free, or if the user has already unlocked paid content.
-		if (grade === 3 || isUnlocked) {
-			setCurrentGrade(grade);
-			setGameState(GameState.Quiz);
-		} else {
-			// Grades 1 and 2 are locked and require a password.
-			setGradeToUnlock(grade);
-			setIsPasswordModalOpen(true);
-		}
+		// 一時的にすべての級を無料で利用可能にする
+		setCurrentGrade(grade);
+		setGameState(GameState.Quiz);
+
+		// 元のコード（コメントアウト）
+		// // Grade 3 is free, or if the user has already unlocked paid content.
+		// if (grade === 3 || isUnlocked) {
+		//     setCurrentGrade(grade);
+		//     setGameState(GameState.Quiz);
+		// } else { // Grades 1 and 2 are locked and require a password.
+		//     setGradeToUnlock(grade);
+		//     setIsPasswordModalOpen(true);
+		// }
 	};
 
 	/**

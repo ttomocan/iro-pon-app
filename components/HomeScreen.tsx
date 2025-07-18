@@ -40,7 +40,8 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectGrade, onShowColorList,
 			<main className='space-y-5'>
 				<div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
 					{levels.map(({ grade, title, description, isLocked }) => {
-						const showLock = isLocked && !isUnlocked;
+						// 一時的にすべての級を利用可能にする
+						const showLock = false; // isLocked && !isUnlocked の代わりに false を設定
 						return (
 							<div key={grade} className='bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl border border-slate-200'>
 								<div className='p-6'>

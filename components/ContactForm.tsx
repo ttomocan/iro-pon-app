@@ -29,25 +29,36 @@ const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose }) => {
 		setIsSubmitting(true);
 
 		try {
+			console.log('送信開始:', formData);
+
 			// Formspreeを使用したメール送信
+			const formDataToSend = new FormData();
+			formDataToSend.append('name', formData.name);
+			formDataToSend.append('email', formData.email);
+			formDataToSend.append('subject', formData.subject);
+			formDataToSend.append('message', formData.message);
+
+			console.log('FormData作成完了');
+
 			const response = await fetch('https://formspree.io/f/mwpqpldv', {
 				method: 'POST',
+				body: formDataToSend,
 				headers: {
-					'Content-Type': 'application/json',
+					Accept: 'application/json',
 				},
-				body: JSON.stringify({
-					name: formData.name,
-					email: formData.email,
-					subject: formData.subject,
-					message: formData.message,
-				}),
 			});
 
+			console.log('レスポンス:', response.status, response.statusText);
+
 			if (response.ok) {
+				const result = await response.json();
+				console.log('送信成功:', result);
 				setIsSubmitting(false);
 				setIsSubmitted(true);
 			} else {
-				throw new Error('送信に失敗しました');
+				const errorData = await response.json();
+				console.error('Formspree error:', errorData);
+				throw new Error(`送信に失敗しました: ${response.status}`);
 			}
 		} catch (error) {
 			console.error('送信エラー:', error);
@@ -74,7 +85,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose }) => {
 						<p className='text-slate-600 mb-6'>
 							お問い合わせありがとうございます。
 							<br />
-							内容を確認の上、ご連絡いたします。
+							内容を確認の上、サービス向上の参考とさせていただきます。
 						</p>
 						<Button onClick={onClose} variant='primary'>
 							閉じる

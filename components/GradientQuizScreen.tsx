@@ -167,7 +167,7 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
 			<main className='bg-white rounded-2xl shadow-xl p-4 sm:p-8 border border-slate-200'>
 				<div className='grid grid-cols-5 gap-3 mb-6' onDragOver={(e) => e.preventDefault()}>
 					{userOrder.map((color, index) => (
-						<div key={color.color_code} draggable={!isSubmitted} onDragStart={(e) => handleDragStart(e, index)} onDragOver={(e) => handleDragOver(e, index)} onDrop={(e) => handleDrop(e, index)} onDragEnd={handleDragEnd} onDragLeave={() => setDragOverIndex(null)} className={`h-32 sm:h-48 rounded-lg cursor-grab transition-all duration-200 ${isSubmitted ? 'cursor-not-allowed' : 'active:cursor-grabbing'} border-4 ${dragOverIndex === index ? 'border-cyan-500' : 'border-transparent'}`} style={{ backgroundColor: color.color_code }} aria-label={color.color_name}></div>
+						<div key={color.color_code} draggable={!isSubmitted} onDragStart={(e) => handleDragStart(e, index)} onDragOver={(e) => handleDragOver(e, index)} onDrop={(e) => handleDrop(e, index)} onDragEnd={handleDragEnd} onDragLeave={() => setDragOverIndex(null)} className={`h-28 sm:h-48 rounded-lg cursor-grab transition-all duration-200 ${isSubmitted ? 'cursor-not-allowed' : 'active:cursor-grabbing'} border-4 ${dragOverIndex === index ? 'border-cyan-500' : 'border-transparent'}`} style={{ backgroundColor: color.color_code }} aria-label={color.color_name}></div>
 					))}
 				</div>
 
@@ -178,7 +178,7 @@ const GradientQuizScreen: React.FC<{ onQuizComplete: (score: number, total: numb
 				)}
 
 				{isSubmitted && (
-					<div className='mt-8 pt-6 border-t border-slate-200 animate-fade-in max-h-[60vh] overflow-y-auto'>
+					<div className='mt-8 pt-6 border-t border-slate-200 animate-fade-in'>
 						<div className='text-center mb-6'>
 							{isCorrect ? (
 								<div className='inline-flex items-center gap-2 text-3xl font-bold text-green-600'>

@@ -19,6 +19,11 @@ const levels = [
 ];
 
 const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectGrade, onShowColorList, isUnlocked, onOpenContactForm, onOpenTermsOfService }) => {
+	const handlePremiumPurchase = () => {
+		// プレミアム購入処理をここに実装
+		alert('プレミアム機能の購入処理を実装してください');
+	};
+
 	return (
 		<div className='w-full max-w-2xl mx-auto py-4 sm:p-6'>
 			<header className='text-center mb-10'>
@@ -65,6 +70,57 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectGrade, onShowColorList,
 					</Button>
 				</div>
 			</main>
+
+			{/* プレミアム機能セクション */}
+			<section className='mt-12 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200'>
+				<div className='text-center mb-6'>
+					<div className='inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full mb-4'>
+						<span className='text-white text-2xl font-bold'>★</span>
+					</div>
+					<h2 className='text-3xl font-bold text-slate-900 mb-2'>プレミアム機能</h2>
+					<p className='text-slate-600 text-lg'>すべての級を無制限で楽しめる！</p>
+				</div>
+
+				<div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+					<div className='bg-white rounded-xl p-6 shadow-md'>
+						<h3 className='text-xl font-bold text-slate-900 mb-4'>プレミアム特典</h3>
+						<ul className='space-y-3 text-slate-700'>
+							<li className='flex items-center gap-3'>
+								<span className='text-green-500 text-lg'>✓</span>
+								<span>すべての級（1級・2級・3級）が利用可能</span>
+							</li>
+							<li className='flex items-center gap-3'>
+								<span className='text-green-500 text-lg'>✓</span>
+								<span>無制限のクイズチャレンジ</span>
+							</li>
+							<li className='flex items-center gap-3'>
+								<span className='text-green-500 text-lg'>✓</span>
+								<span>新機能の利用権</span>
+							</li>
+						</ul>
+					</div>
+
+					<div className='bg-white rounded-xl p-6 shadow-md'>
+						<div className='text-center'>
+							<div className='mb-4'>
+								<span className='text-4xl font-bold text-slate-900'>¥480</span>
+							</div>
+							<div className='mb-6'>
+								<span className='text-sm text-slate-500 line-through'>¥980</span>
+								<span className='text-green-600 font-semibold ml-2'>51%OFF</span>
+							</div>
+							<div className='space-y-3'>
+								<Button onClick={handlePremiumPurchase} className='w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-4 text-lg'>
+									プレミアムにアップグレード
+								</Button>
+								<p className='text-xs text-slate-500'>
+									<strong className='text-purple-600'>買い切り</strong>でずっと使える
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<footer className='text-center mt-12 space-y-4'>
 				<div className='space-y-2'>

@@ -6,6 +6,7 @@ import ColorListScreen from './components/ColorListScreen';
 import GradientQuizScreen from './components/GradientQuizScreen';
 import PasswordModal from './components/PasswordModal';
 import ContactForm from './components/ContactForm';
+import TermsOfService from './components/TermsOfService';
 import { GameState } from './types';
 
 // The "secret" password for paid content
@@ -32,6 +33,9 @@ const App: React.FC = () => {
 
 	// State for contact form
 	const [isContactFormOpen, setIsContactFormOpen] = useState(false);
+
+	// State for terms of service modal
+	const [isTermsOfServiceOpen, setIsTermsOfServiceOpen] = useState(false);
 
 	// On initial load, check if the user has already unlocked the content.
 	useEffect(() => {
@@ -141,6 +145,20 @@ const App: React.FC = () => {
 		setIsContactFormOpen(false);
 	};
 
+	/**
+	 * Opens the terms of service modal.
+	 */
+	const handleOpenTermsOfService = () => {
+		setIsTermsOfServiceOpen(true);
+	};
+
+	/**
+	 * Closes the terms of service modal.
+	 */
+	const handleCloseTermsOfService = () => {
+		setIsTermsOfServiceOpen(false);
+	};
+
 	// Renders the appropriate component based on the current game state.
 	const renderContent = () => {
 		switch (gameState) {
@@ -155,7 +173,7 @@ const App: React.FC = () => {
 				return <ColorListScreen onGoHome={handleGoHome} onOpenContactForm={handleOpenContactForm} />;
 			case GameState.Home:
 			default:
-				return <HomeScreen onSelectGrade={handleSelectGrade} onShowColorList={handleShowColorList} isUnlocked={isUnlocked} onOpenContactForm={handleOpenContactForm} />;
+				return <HomeScreen onSelectGrade={handleSelectGrade} onShowColorList={handleShowColorList} isUnlocked={isUnlocked} onOpenContactForm={handleOpenContactForm} onOpenTermsOfService={handleOpenTermsOfService} />;
 		}
 	};
 
@@ -164,6 +182,7 @@ const App: React.FC = () => {
 			{renderContent()}
 			<PasswordModal isOpen={isPasswordModalOpen} onClose={handleClosePasswordModal} onSubmit={handlePasswordSubmit} grade={gradeToUnlock} />
 			<ContactForm isOpen={isContactFormOpen} onClose={handleCloseContactForm} />
+			<TermsOfService isOpen={isTermsOfServiceOpen} onClose={handleCloseTermsOfService} />
 		</div>
 	);
 };

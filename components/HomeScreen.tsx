@@ -7,6 +7,7 @@ interface HomeScreenProps {
 	onShowColorList: () => void;
 	isUnlocked: boolean;
 	onOpenContactForm: () => void;
+	onOpenTermsOfService: () => void;
 }
 
 // Defines the levels available in the quiz.
@@ -17,7 +18,7 @@ const levels = [
 	{ grade: 1, title: '1級', description: '明度・彩度のグラデーション整列に挑戦！', isLocked: true },
 ];
 
-const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectGrade, onShowColorList, isUnlocked, onOpenContactForm }) => {
+const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectGrade, onShowColorList, isUnlocked, onOpenContactForm, onOpenTermsOfService }) => {
 	return (
 		<div className='w-full max-w-2xl mx-auto py-4 sm:p-6'>
 			<header className='text-center mb-10'>
@@ -65,10 +66,17 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectGrade, onShowColorList,
 			</main>
 
 			<footer className='text-center mt-12 space-y-4'>
-				<div>
-					<button onClick={onOpenContactForm} className='text-sm text-slate-500 hover:text-slate-700 underline transition-colors'>
-						お問い合わせ・要望・改善提案
-					</button>
+				<div className='space-y-2'>
+					<div>
+						<button onClick={onOpenContactForm} className='text-sm text-slate-500 hover:text-slate-700 underline transition-colors'>
+							お問い合わせ・要望・改善提案
+						</button>
+					</div>
+					<div>
+						<button onClick={onOpenTermsOfService} className='text-sm text-slate-500 hover:text-slate-700 underline transition-colors'>
+							利用規約
+						</button>
+					</div>
 				</div>
 				<p className='text-sm text-slate-500'>&copy; 2025 いろポン！. All rights reserved.</p>
 			</footer>

@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- SEO Meta Tags -->
+		<title>いろポン！ - 色をポンっと当てて、楽しく色彩マスター！</title>
+		<meta name="description" content="慣用色名検定の学習アプリ「いろポン！」。3級・2級・1級の色を楽しく学べます。色彩検定の勉強に最適なクイズアプリです。" />
+		<meta name="keywords" content="色彩検定,慣用色名,色,カラー,クイズ,学習,3級,2級,1級,色彩,色名,検定,勉強" />
+		<meta name="author" content="いろポン！" />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://iro-pon.netlify.app/" />
+		<meta property="og:title" content="いろポン！ - 色をポンっと当てて、楽しく色彩マスター！" />
+		<meta property="og:description" content="慣用色名検定の学習アプリ「いろポン！」。3級・2級・1級の色を楽しく学べます。色彩検定の勉強に最適なクイズアプリです。" />
+		<meta property="og:image" content="https://iro-pon.netlify.app/apple-touch-icon.png" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://iro-pon.netlify.app/" />
+		<meta property="twitter:title" content="いろポン！ - 色をポンっと当てて、楽しく色彩マスター！" />
+		<meta property="twitter:description" content="慣用色名検定の学習アプリ「いろポン！」。3級・2級・1級の色を楽しく学べます。色彩検定の勉強に最適なクイズアプリです。" />
+		<meta property="twitter:image" content="https://iro-pon.netlify.app/apple-touch-icon.png" />
+
+		<!-- Additional SEO -->
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="ja" />
+		<meta name="revisit-after" content="7 days" />
+		<meta name="theme-color" content="#0ea5e9" />
+
+		<!-- Icons -->
 		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>いろポン！</title>
+
+		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet" />
+
+		<!-- Styles -->
 		<script src="https://cdn.tailwindcss.com"></script>
 		<style>
 			/* Brighter scrollbar for the light theme */
@@ -41,5 +72,32 @@
 	<body class="bg-slate-50">
 		<div id="root"></div>
 		<script type="module" src="/index.tsx"></script>
+
+		<!-- Structured Data (JSON-LD) -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "WebApplication",
+				"name": "いろポン！",
+				"description": "慣用色名検定の学習アプリ「いろポン！」。3級・2級・1級の色を楽しく学べます。色彩検定の勉強に最適なクイズアプリです。",
+				"url": "https://iro-pon.netlify.app/",
+				"applicationCategory": "EducationalApplication",
+				"operatingSystem": "Web Browser",
+				"offers": {
+					"@type": "Offer",
+					"price": "0",
+					"priceCurrency": "JPY"
+				},
+				"author": {
+					"@type": "Organization",
+					"name": "いろポン！"
+				},
+				"publisher": {
+					"@type": "Organization",
+					"name": "いろポン！"
+				},
+				"keywords": "色彩検定,慣用色名,色,カラー,クイズ,学習,3級,2級,1級,色彩,色名,検定,勉強"
+			}
+		</script>
 	</body>
 </html>

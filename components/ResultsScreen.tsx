@@ -7,6 +7,7 @@ interface ResultsScreenProps {
 	grade: number;
 	onRestart: () => void;
 	onGoHome: () => void;
+	onOpenContactForm?: () => void;
 }
 
 const getGradeTitle = (grade: number): string => {
@@ -24,7 +25,7 @@ const getGradeTitle = (grade: number): string => {
 	}
 };
 
-const ResultsScreen: React.FC<ResultsScreenProps> = ({ score, totalQuestions, grade, onRestart, onGoHome }) => {
+const ResultsScreen: React.FC<ResultsScreenProps> = ({ score, totalQuestions, grade, onRestart, onGoHome, onOpenContactForm }) => {
 	const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
 
 	let message = '';
@@ -75,6 +76,13 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ score, totalQuestions, gr
 					<Button onClick={onGoHome} variant='secondary'>
 						ホームに戻る
 					</Button>
+					{onOpenContactForm && (
+						<div className='pt-2'>
+							<button onClick={onOpenContactForm} className='text-sm text-slate-500 hover:text-slate-700 underline transition-colors'>
+								お問い合わせ・要望・改善提案
+							</button>
+						</div>
+					)}
 				</footer>
 			</div>
 		</div>

@@ -6,6 +6,7 @@ interface HomeScreenProps {
 	onSelectGrade: (grade: number) => void;
 	onShowColorList: () => void;
 	isUnlocked: boolean;
+	onOpenContactForm: () => void;
 }
 
 // Defines the levels available in the quiz.
@@ -16,9 +17,9 @@ const levels = [
 	{ grade: 1, title: '1級', description: '明度・彩度のグラデーション整列に挑戦！', isLocked: true },
 ];
 
-const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectGrade, onShowColorList, isUnlocked }) => {
+const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectGrade, onShowColorList, isUnlocked, onOpenContactForm }) => {
 	return (
-		<div className='w-full max-w-md mx-auto py-4 sm:p-6'>
+		<div className='w-full max-w-2xl mx-auto py-4 sm:p-6'>
 			<header className='text-center mb-10'>
 				<h1
 					className='text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text tracking-wider'
@@ -36,23 +37,25 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectGrade, onShowColorList,
 			</header>
 
 			<main className='space-y-5'>
-				{levels.map(({ grade, title, description, isLocked }) => {
-					const showLock = isLocked && !isUnlocked;
-					return (
-						<div key={grade} className='bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl border border-slate-200'>
-							<div className='p-6'>
-								<h2 className='text-2xl font-bold text-slate-900 mb-2'>{title}</h2>
-								<p className='text-slate-600 mb-6'>{description}</p>
-								<Button onClick={() => onSelectGrade(grade)}>
-									<div className='flex items-center justify-center gap-2'>
-										{showLock && <LockIcon className='w-5 h-5' />}
-										<span>{title}に挑戦する</span>
-									</div>
-								</Button>
+				<div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
+					{levels.map(({ grade, title, description, isLocked }) => {
+						const showLock = isLocked && !isUnlocked;
+						return (
+							<div key={grade} className='bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl border border-slate-200'>
+								<div className='p-6'>
+									<h2 className='text-2xl font-bold text-slate-900 mb-2'>{title}</h2>
+									<p className='text-slate-600 mb-6'>{description}</p>
+									<Button onClick={() => onSelectGrade(grade)}>
+										<div className='flex items-center justify-center gap-2'>
+											{showLock && <LockIcon className='w-5 h-5' />}
+											<span>{title}に挑戦する</span>
+										</div>
+									</Button>
+								</div>
 							</div>
-						</div>
-					);
-				})}
+						);
+					})}
+				</div>
 
 				<div className='pt-4'>
 					<Button onClick={onShowColorList} variant='secondary'>
@@ -61,8 +64,13 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectGrade, onShowColorList,
 				</div>
 			</main>
 
-			<footer className='text-center mt-12 text-sm text-slate-500'>
-				<p>&copy; 2025 いろポン！. All rights reserved.</p>
+			<footer className='text-center mt-12 space-y-4'>
+				<div>
+					<button onClick={onOpenContactForm} className='text-sm text-slate-500 hover:text-slate-700 underline transition-colors'>
+						お問い合わせ・要望・改善提案
+					</button>
+				</div>
+				<p className='text-sm text-slate-500'>&copy; 2025 いろポン！. All rights reserved.</p>
 			</footer>
 		</div>
 	);

@@ -7,6 +7,7 @@ import GradientQuizScreen from './components/GradientQuizScreen';
 import PasswordModal from './components/PasswordModal';
 import ContactForm from './components/ContactForm';
 import TermsOfService from './components/TermsOfService';
+import ServiceInfo from './components/ServiceInfo';
 import { GameState } from './types';
 
 // The "secret" password for paid content
@@ -136,6 +137,13 @@ const App: React.FC = () => {
 	};
 
 	/**
+	 * Transitions the app to the service info view.
+	 */
+	const handleShowServiceInfo = () => {
+		setGameState(GameState.ServiceInfo);
+	};
+
+	/**
 	 * Opens the contact form.
 	 */
 	const handleOpenContactForm = () => {
@@ -170,21 +178,58 @@ const App: React.FC = () => {
 				if (currentGrade === 1) {
 					return <GradientQuizScreen onQuizComplete={handleQuizComplete} onGoHome={handleGoHome} />;
 				}
-				return currentGrade && <QuizScreen grade={currentGrade} onQuizComplete={handleQuizComplete} onGoHome={handleGoHome} />;
+				return (
+					currentGrade && (
+						<QuizScreen
+							grade={currentGrade}
+							onQuizComplete={handleQuizComplete}
+							onGoHome={handleGoHome}
+						/>
+					)
+				);
 			case GameState.Results:
-				return currentGrade && <ResultsScreen score={finalScore} totalQuestions={totalQuestions} grade={currentGrade} onRestart={handleRestartQuiz} onGoHome={handleGoHome} onOpenContactForm={handleOpenContactForm} />;
+				return (
+					currentGrade && (
+						<ResultsScreen
+							score={finalScore}
+							totalQuestions={totalQuestions}
+							grade={currentGrade}
+							onRestart={handleRestartQuiz}
+							onGoHome={handleGoHome}
+							onOpenContactForm={handleOpenContactForm}
+						/>
+					)
+				);
 			case GameState.ColorList:
-				return <ColorListScreen onGoHome={handleGoHome} onOpenContactForm={handleOpenContactForm} />;
+				return (
+					<ColorListScreen onGoHome={handleGoHome} onOpenContactForm={handleOpenContactForm} />
+				);
+			case GameState.ServiceInfo:
+				return <ServiceInfo onGoHome={handleGoHome} onOpenContactForm={handleOpenContactForm} />;
 			case GameState.Home:
 			default:
-				return <HomeScreen onSelectGrade={handleSelectGrade} onShowColorList={handleShowColorList} isUnlocked={isUnlocked} onOpenContactForm={handleOpenContactForm} onOpenTermsOfService={handleOpenTermsOfService} />;
+				return (
+					<HomeScreen
+						onSelectGrade={handleSelectGrade}
+						onShowColorList={handleShowColorList}
+						isUnlocked={isUnlocked}
+						onOpenContactForm={handleOpenContactForm}
+						onOpenTermsOfService={handleOpenTermsOfService}
+						onShowServiceInfo={handleShowServiceInfo}
+					/>
+				);
 		}
 	};
 
 	return (
 		<div className='min-h-screen w-full flex items-center justify-center font-sans antialiased text-slate-800 p-4'>
 			{renderContent()}
-			<PasswordModal isOpen={isPasswordModalOpen} onClose={handleClosePasswordModal} onSubmit={handlePasswordSubmit} grade={gradeToUnlock} />
+			<PasswordModal
+				isOpen={isPasswordModalOpen}
+				onClose={handleClosePasswordModal}
+				onSubmit={handlePasswordSubmit}
+				grade={gradeToUnlock}
+			/>
 			<ContactForm isOpen={isContactFormOpen} onClose={handleCloseContactForm} />
 			<TermsOfService isOpen={isTermsOfServiceOpen} onClose={handleCloseTermsOfService} />
 		</div>
